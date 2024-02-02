@@ -197,7 +197,7 @@ def translate(p,v):
     Vec3 v
     """
     p = p.copy()
-    return p.translate(theta)
+    return p.translate(v)
 
 def invert(p):
     """Perform an inversion"""
